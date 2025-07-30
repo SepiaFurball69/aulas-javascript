@@ -65,13 +65,23 @@
     console.log(divisao);
 
     /* alternando a ordem de calculo com o uso de parenteses: nesse caso, primeiro ocorrerá a soma de a+b, e depois a divisão da soma por 2. */
-    
+
     let a = 100
     let b = 20
     let media = (a+b)/2
     console.log(media);
     
-
+    /* Saída de dados personalizada frase para exemplo: Olá me chamo Chapolin colorado e não vejo a hora de acabar o ano de 2025*/
+    // forma 1: concatenação (tradicional, antiga)
+    // forma 2: template literal/string (moderna)
+    console.log("olá me chamo "+aluno+" e não vejo a hora de acabar o ano de "+ano+"." ); //forma 1
+    let frase = "Estamos estudando JavaScript na escola Senac ";
+    frase += "Penha, no curso de desenvolvedor Full-Stack ";
+    frase += "no ano de "+ano;
+    console.log(frase);
+    // No exemplo acima usamos += (significa concatena e atribui)
+    
+    
     </script>
 </body>
 </html>
