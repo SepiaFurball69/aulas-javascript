@@ -20,3 +20,13 @@ Recursos interativos em geral, como por exemplo:
 - Carrossel/Slider de conteudo
 - Recursos avançados de formulário (validação mais profissional, integração com API)
 - Interações avançadas (manipulação de teclado, mouse, gestos etc)
+
+---
+
+## Sobre Arrays
+
+Arrays são estruturas de dados **indexados** tambem conhecidos como vetores ou matrizes.
+
+Na pratica, um Array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/indice do array.
+
+**Obs:** a contagem dos indices **sempre inicia em zero**.
