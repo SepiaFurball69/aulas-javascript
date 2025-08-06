@@ -21,7 +21,7 @@ console.log(coisas[4]);
 // 1) Crie um array contendo um nome de 7 coisas que vc gosta. exemplo: artistas, musicas, livros, comida, etc...
 let gostos = ['futebol', 'são paulo', 'brasil', 'libertadores', 'chelsea', 'champions league', 'real madrid']
 
-// 2) mostre no consile uma frase personalizada indicando o segundo, o quinto e o setimo elemento do array. use concatenação e/ou template string
+// 2) mostre no console uma frase personalizada indicando o segundo, o quinto e o setimo elemento do array. use concatenação e/ou template string
 
 console.log("eu torço para o "+gostos[1]+" meu time da inglaterra é o "+gostos[4]+" e o meu time da espanha é o "+gostos[6]);
 
