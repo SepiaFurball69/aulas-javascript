@@ -80,7 +80,3 @@ const aluno = {
     }
 };
 console.log(`O Aluno se chama ${aluno.nome} o numero de celular dele é ${aluno.contato[0]} e ele mora no bairro ${aluno.endereco.bairro}`);
-
-
-
-
