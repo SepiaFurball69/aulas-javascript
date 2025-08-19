@@ -38,3 +38,13 @@ if (feriado === true || fim de semana === true || diadasemana === "sexta") {
 else{
     console.log("tem aula");
 }
+//! -> Inverte a logica. o que é true, vira false. o que é false, vira true.
+// não esta vigorando (false)
+let blackfriday = false;
+/* aqui, ao usar ! (negação), verificamos se a variavel não é true. ou seja, invertemos a logica.*/ 
+if (!blackfriday) {
+    console.log("preços normais");
+}
+else{
+    console.log("preços com desconto");
+}
