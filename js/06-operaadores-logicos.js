@@ -25,3 +25,16 @@ let b = '10';
 let resultadoComparacao = a == b; //false
 
 console.log(resultadoComparacao);
+
+// == olha valor
+// === olha valor e tipo de dado
+
+let feriado = true;
+let fimdesemana = false;
+let diadasemana = "quinta"
+if (feriado === true || fim de semana === true || diadasemana === "sexta") {
+    console.log("não tem aula");
+}
+else{
+    console.log("tem aula");
+}
