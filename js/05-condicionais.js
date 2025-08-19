@@ -46,7 +46,7 @@ Verificando o desempenho do aluno conforme a media:
 - media acima de 7: bom
 - media acima de 5: ruim
 - media até 5: pessimo*/
-if (media > 9) {
+if (media > 9) {''
     console.log("otimo");
 }
 else if (media > 7) {
@@ -58,3 +58,7 @@ else if (media > 5) {
 else{
     console.log("pessimo");
 }
+
+/*Condicional COmposta com operador ternario   ?:   */
+let situacao = idade >= 16 ? "maior" : "menor";
+console.log(situacao);
