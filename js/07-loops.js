@@ -88,7 +88,3 @@ for( const resultado of cliente){
 for(let i = 0; i < cliente.length; i++){
     console.log("-cliente "+ cliente[i].cliente+ ", ID: "+cliente[i].id);
 }
-
-
-
-
