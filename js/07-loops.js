@@ -10,26 +10,26 @@ normalment, os loops são controlados atravez de uma variavel contadora. esta va
 console.log("exemplo 1: WHILE (enquanto)");
 
 let i = 1;
-while(i <= 5 ){
-    console.log("valor do contador: "+i);
+while (i <= 5) {
+    console.log("valor do contador: " + i);
     i++; // incremento
     // i = i + 1
 }
 console.log("\nExemplo 2: For(para)");
-for( let j = 1; j <= 10; j++ ){
-    console.log(" J vale "+j);
+for (let j = 1; j <= 10; j++) {
+    console.log(" J vale " + j);
 
 }
 console.log("\nExemplo 3: loop regressivo");
 
-for(let k = 10; k > 1; k-- ){
-    console.log("K vale "+k);
+for (let k = 10; k > 1; k--) {
+    console.log("K vale " + k);
 }
 
 console.log("\nExemplo 4: loop e array");
 const coisa = ["bola", "bonzinho", "estudo"]
 
-for (let i = 0; i < coisa.length; i++ ){ 
+for (let i = 0; i < coisa.length; i++) {
     console.log(coisa[i]);
 }
 
@@ -51,7 +51,7 @@ const pessoa = {
 };
 
 // Usando o loop for/in para objetos (exclusivo do js)
-for(const dados in pessoa){
+for (const dados in pessoa) {
     console.log(pessoa[dados]);
 }
 /* 1. Faça um array chamado "clientes" contendo 3 objetos.
@@ -66,7 +66,7 @@ Cada objeto deverá ter uma propriedade "identificador" (com valores 1, 2 e 3) e
 
 console.log("\nExercicio");
 
-const cliente =[ 
+const cliente = [
     {
         cliente: "Espanha",
         id: "1"
@@ -81,12 +81,12 @@ const cliente =[
     }
 ];
 
-for( const resultado of cliente){
+for (const resultado of cliente) {
     console.log(`-cliente ${resultado.cliente}, ID: ${resultado.id}`);
 }
 
-for(let i = 0; i < cliente.length; i++){
-    console.log("-cliente "+ cliente[i].cliente+ ", ID: "+cliente[i].id);
+for (let i = 0; i < cliente.length; i++) {
+    console.log("-cliente " + cliente[i].cliente + ", ID: " + cliente[i].id);
 }
 
 let c = 0;
