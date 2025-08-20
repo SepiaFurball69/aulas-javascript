@@ -88,3 +88,9 @@ for( const resultado of cliente){
 for(let i = 0; i < cliente.length; i++){
     console.log("-cliente "+ cliente[i].cliente+ ", ID: "+cliente[i].id);
 }
+
+let c = 0;
+while (c < cliente.length) {
+    console.log(`-cliente ${cliente[c].cliente}, ID: ${cliente[c].id}`);
+    c++;
+}
