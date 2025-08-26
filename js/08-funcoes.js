@@ -17,8 +17,27 @@ const exemplo1 = function(){
 exemplo1();
 
 console.log("\nExemplo 2: função Nomeada/Declarada");
-function() {
+function exemplo2() {
     console.log("esta é a função nomeada!");
 }
 exemplo2();
 
+console.log("\nExemplo 3: arrow function (função flecha/seta)");
+
+const exemplo3 = () => {
+    console.log("Sintaxe Arrow Function!");
+};
+
+exemplo3();
+
+/* Obs: funções (em qualquer sintaxe) tambem podem trabalhar com parametros/argumentos 
+
+quando uma função precisa de valores/dados para algum tipo de processamento, ela recebe valores/dados atraves de parametros/argumentos entre os parenteses
+
+geralmente, ao terminar o processamento de dados, a função "retorna" para fora do resultado.*/
+
+function saudacao( nome ) {
+    console.log("olá, "+nome);
+}
+
+saudacao("Henrique");
