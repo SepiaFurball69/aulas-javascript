@@ -102,3 +102,4 @@ const exemploC = new Intl.NumberFormat("pt-br", {
 }).format(precofinal);
 
 console.log(exemploC);
+
