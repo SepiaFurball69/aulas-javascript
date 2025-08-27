@@ -4,16 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>JavaScript - Eventos</title>
+<style>
+  /* Folha de estilos Interna (só pra essa pagina) */
+  .destaque {
+    background-color: red;
+    color: white;
+    padding: 0.4em;
+    border-radius: 4px;
+  }
+  .centro{
+    text-align: center;
+  }
+</style>
 </head>
 <body>
-    <h1>Eventos</h1>
+    <h1 id="ev">Eventos</h1>
     <p>Eventos são interações/fenômenos que ocorrem na página. Ao monitorar e manipular eventos, o JS pode reagir ao que acontece.</p>
     <hr>
     <h2 id="exemplo1">Exemplo 01: Detectando eventos</h2>
     <p id="mensagem01"></p>
 
     <hr>
-    
+
     <h2>Exemplo 02: Detectando "saída" do site</h2>
     <p id="mensagem02"></p>
 
@@ -22,7 +34,7 @@
     <button id="noturno">Ativar</button>  
     <hr>
 
-    <h2>Referências</h2>
+    <h2 id="ref">Referências</h2>
     <ul>
         <li><b>Eloquent JavaScript:</b> 
    <a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/14-manipulando-eventos.md" target="_blank">
